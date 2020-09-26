@@ -11,9 +11,12 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": "^5.6 || ^7.0",
-        "zendframework/zend-component-installer": "^1.0 || ^2.1",
-        "zendframework/zend-mvc": "^3.1.1",
-        "zfcampus/zf-development-mode": "^3.2"
+        "laminas/laminas-component-installer": "^1.0 || ^2.1",
+        "laminas/laminas-mvc": "^3.1.1",
+        "laminas/laminas-development-mode": "^3.2",
+        "laminas/laminas-db": "^2.11",
+        "laminas/laminas-session": "^2.9",
+        "laminas/laminas-validator": "^2.13"
     },
     "autoload": {
         "psr-4": {
